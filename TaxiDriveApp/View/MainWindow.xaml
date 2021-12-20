@@ -3,6 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         xmlns:local="clr-namespace:TaxiDriveApp" xmlns:i="http://schemas.microsoft.com/netfx/2009/xaml/presentation" xmlns:i1="http://schemas.microsoft.com/expression/2010/interactivity"
         mc:Ignorable="d"
         Title="MainWindow" Height="643" Width="707" AllowsTransparency="True" WindowStyle="None" WindowStartupLocation="CenterScreen" Background="{x:Null}">
@@ -158,10 +159,10 @@
         <Grid x:Name="Login" HorizontalAlignment="Left" Height="337" Margin="114,106,0,0" VerticalAlignment="Top" Width="439">
             <Rectangle x:Name="rectangle1" HorizontalAlignment="Left" Height="53" Stroke="White" VerticalAlignment="Top" Width="12" RadiusX="0" RadiusY="0" Fill="#FFFFFF33" Margin="1,0,0,0"/>
             <TextBlock HorizontalAlignment="Left" Height="53" Margin="48,0,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="325" Text="LOGIN" FontWeight="Bold" FontSize="38" TextDecorations="{x:Null}" FontStyle="Normal" Foreground="#FFFFFF33"/>
-            <TextBox HorizontalAlignment="Left" Height="37" Margin="36,78,0,0" Text="Username" TextWrapping="Wrap" VerticalAlignment="Top" Width="403" Foreground="#FF7D7D7D" FontSize="16" BorderBrush="#FFF9FAFF"/>
-            <Path Data="M145,221 L491.6,221" Fill="#FF6C6C71" HorizontalAlignment="Left" Height="1" Margin="31,115,0,0" Stretch="Fill" Stroke="#FF6C6C71" VerticalAlignment="Top" Width="403"/>
-            <TextBox HorizontalAlignment="Left" Height="37" Margin="36,160,0,0" Text="Password" TextWrapping="Wrap" VerticalAlignment="Top" Width="403" Foreground="#FF7D7D7D" FontSize="16" BorderBrush="#FFFBFCFF"/>
-            <Path Data="M145,221 L491.6,221" Fill="#FF6C6C71" HorizontalAlignment="Left" Height="1" Margin="31,196,0,0" Stretch="Fill" Stroke="#FF6C6C71" VerticalAlignment="Top" Width="403"/>
+            <TextBox BorderThickness="1" materialDesign:HintAssist.Hint="Username" HorizontalAlignment="Left" Height="37" Margin="36,78,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="403" Foreground="#FF7D7D7D" FontSize="16" BorderBrush="#FFF9FAFF"/>
+            <Path Data="M145,221 L491.6,221" Fill="#FF6C6C71" HorizontalAlignment="Left" Height="1" Margin="35.002,114.333,0,0" Stretch="Fill" Stroke="#FF6C6C71" VerticalAlignment="Top" Width="403"/>
+            <TextBox materialDesign:HintAssist.Hint="Password" HorizontalAlignment="Left" Height="37" Margin="36,160,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="403" Foreground="#FF7D7D7D" FontSize="16" BorderBrush="#FFFBFCFF"/>
+            <Path Data="M145,221 L491.6,221" Fill="#FF6C6C71" HorizontalAlignment="Left" Height="1" Margin="36.336,196,-0.336,0" Stretch="Fill" Stroke="#FF6C6C71" VerticalAlignment="Top" Width="403"/>
             <Rectangle x:Name="rectangle2" HorizontalAlignment="Left" Height="47" Margin="89,258,0,0" Stroke="white" VerticalAlignment="Top" Width="301" RadiusX="23.5" RadiusY="23.5" Fill="#FFFFFF33" RenderTransformOrigin="0.5,0.5">
                 <Rectangle.RenderTransform>
                     <TransformGroup>
