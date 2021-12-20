@@ -53,11 +53,11 @@
                 <EasingDoubleKeyFrame KeyTime="00:00:00.6000000" Value="-0.159"/>
             </DoubleAnimationUsingKeyFrames>
             <ColorAnimationUsingKeyFrames Storyboard.TargetName="rectangle1" Storyboard.TargetProperty="(Shape.Stroke).(SolidColorBrush.Color)">
-                <EasingColorKeyFrame KeyTime="00:00:00.6000000" Value="#FFFFFF33"/>
+                <EasingColorKeyFrame KeyTime="00:00:00.6000000" Value="#FFA400"/>
             </ColorAnimationUsingKeyFrames>
             <ColorAnimationUsingKeyFrames Storyboard.TargetName="rectangle" Storyboard.TargetProperty="(Shape.Stroke).(SolidColorBrush.Color)">
                 <EasingColorKeyFrame KeyTime="00:00:00.5000000" Value="White"/>
-                <EasingColorKeyFrame KeyTime="00:00:00.6000000" Value="#FFFFFF33"/>
+                <EasingColorKeyFrame KeyTime="00:00:00.6000000" Value="#FFA400"/>
             </ColorAnimationUsingKeyFrames>
             <ObjectAnimationUsingKeyFrames Storyboard.TargetName="Login" Storyboard.TargetProperty="(UIElement.Visibility)">
                 <DiscreteObjectKeyFrame KeyTime="00:00:00.6000000" Value="{x:Static Visibility.Hidden}"/>
@@ -139,7 +139,7 @@
     <Grid Name="MainGrid" Margin="4,0,-4,0" Visibility="Visible">
         <Rectangle HorizontalAlignment="Center" Height="409" Margin="0,34,0,0" Stroke="DimGray" VerticalAlignment="Top" Width="427" RadiusX="17.559" RadiusY="17.559" Fill="DimGray"/>
         <Rectangle HorizontalAlignment="Center" Height="425" Margin="0,47,0,0" Stroke="White" VerticalAlignment="Top" Width="479" RadiusX="17.559" RadiusY="17.559" Fill="White" d:IsLocked="True"/>
-        <Rectangle x:Name="rectangle" HorizontalAlignment="Left" Height="82" Margin="554,106,0,0" Stroke="White" VerticalAlignment="Top" Width="80" RadiusX="28.067" RadiusY="28.067" Fill="#FFFFFF33" RenderTransformOrigin="0.5,0.5">
+        <Rectangle x:Name="rectangle" HorizontalAlignment="Left" Height="82" Margin="554,106,0,0" Stroke="White" VerticalAlignment="Top" Width="80" RadiusX="28.067" RadiusY="28.067" Fill="#FFA400" RenderTransformOrigin="0.5,0.5">
             <Rectangle.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -157,13 +157,13 @@
     </i1:Interaction.Triggers>
         </TextBlock>
         <Grid x:Name="Login" HorizontalAlignment="Left" Height="337" Margin="114,106,0,0" VerticalAlignment="Top" Width="439">
-            <Rectangle x:Name="rectangle1" HorizontalAlignment="Left" Height="53" Stroke="White" VerticalAlignment="Top" Width="12" RadiusX="0" RadiusY="0" Fill="#FFFFFF33" Margin="1,0,0,0"/>
-            <TextBlock HorizontalAlignment="Left" Height="53" Margin="48,0,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="325" Text="LOGIN" FontWeight="Bold" FontSize="38" TextDecorations="{x:Null}" FontStyle="Normal" Foreground="#FFFFFF33"/>
+            <Rectangle x:Name="rectangle1" HorizontalAlignment="Left" Height="53" Stroke="White" VerticalAlignment="Top" Width="12" RadiusX="0" RadiusY="0" Fill="#FFA400" Margin="1,0,0,0"/>
+            <TextBlock HorizontalAlignment="Left" Height="53" Margin="48,0,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="325" Text="LOGIN" FontWeight="Bold" FontSize="38" TextDecorations="{x:Null}" FontStyle="Normal" Foreground="#FFA400"/>
             <TextBox materialDesign:TextFieldAssist.UnderlineBrush="Indigo" BorderThickness="1" materialDesign:HintAssist.Hint="Username" HorizontalAlignment="Left" Height="37" Margin="36,78,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="403" Foreground="#FF7D7D7D" FontSize="16" BorderBrush="#FFF9FAFF"/>
             <Path Data="M145,221 L491.6,221" Fill="#FF6C6C71" HorizontalAlignment="Left" Height="1" Margin="35.002,114.333,0,0" Stretch="Fill" Stroke="#FF6C6C71" VerticalAlignment="Top" Width="403"/>
             <TextBox materialDesign:TextFieldAssist.UnderlineBrush="Indigo" materialDesign:HintAssist.Hint="Password" HorizontalAlignment="Left" Height="37" Margin="36,160,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="403" Foreground="#FF7D7D7D" FontSize="16" BorderBrush="#FFFBFCFF"/>
             <Path Data="M145,221 L491.6,221" Fill="#FF6C6C71" HorizontalAlignment="Left" Height="1" Margin="36.336,196,-0.336,0" Stretch="Fill" Stroke="#FF6C6C71" VerticalAlignment="Top" Width="403"/>
-            <Rectangle x:Name="rectangle2" HorizontalAlignment="Left" Height="47" Margin="89,258,0,0" Stroke="white" VerticalAlignment="Top" Width="301" RadiusX="23.5" RadiusY="23.5" Fill="#FFFFFF33" RenderTransformOrigin="0.5,0.5">
+            <Rectangle x:Name="rectangle2" HorizontalAlignment="Left" Height="47" Margin="89,258,0,0" Stroke="white" VerticalAlignment="Top" Width="301" RadiusX="23.5" RadiusY="23.5" Fill="#FFA400" RenderTransformOrigin="0.5,0.5">
                 <Rectangle.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
@@ -185,21 +185,21 @@
         <Grid x:Name="Register" HorizontalAlignment="Left" Height="337" VerticalAlignment="Top" Width="438" Margin="115,106,0,0" Visibility="Hidden">
             <Rectangle HorizontalAlignment="Left" Height="53" Stroke="White" VerticalAlignment="Top" Width="12" RadiusX="0" RadiusY="0" Fill="#FFF3F3F0"/>
             <TextBlock HorizontalAlignment="Left" Height="53" TextWrapping="Wrap" VerticalAlignment="Top" Width="325" Text="REGISTER" FontWeight="Bold" FontSize="38" TextDecorations="{x:Null}" FontStyle="Normal" Foreground="#FFFDFDFD" Margin="47,0,0,0"/>
-            <TextBox HorizontalAlignment="Left" Height="37" Margin="35,78,0,0" Text="Username" TextWrapping="Wrap" VerticalAlignment="Top" Width="403" Foreground="#FFF7F1F1" FontSize="16" BorderBrush="{x:Null}" Background="{x:Null}"/>
-            <Path Data="M145,221 L491.6,221" HorizontalAlignment="Left" Height="1" Margin="30,115,0,0" Stretch="Fill" Stroke="#FFF8F8FC" VerticalAlignment="Top" Width="403" Fill="#FFF5F5F9"/>
-            <TextBox HorizontalAlignment="Left" Height="37" Margin="35,141,0,0" Text="Password" TextWrapping="Wrap" VerticalAlignment="Top" Width="403" Foreground="#FFF9F6F6" FontSize="16" BorderBrush="{x:Null}" Background="{x:Null}"/>
+            <TextBox Panel.ZIndex="1" materialDesign:TextFieldAssist.UnderlineBrush="Indigo"  materialDesign:HintAssist.Hint="Username" BorderThickness="1" HorizontalAlignment="Left" Height="37" Margin="35,78,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="403" Foreground="#FFF7F1F1" FontSize="16" BorderBrush="{x:Null}" Background="{x:Null}"/>
+            <Path  Data="M145,221 L491.6,221" HorizontalAlignment="Left" Height="1" Margin="35,114,0,0" Stretch="Fill" Stroke="#FFF8F8FC" VerticalAlignment="Top" Width="403" Fill="#FFF5F5F9"/>
+            <TextBox Panel.ZIndex="1" materialDesign:TextFieldAssist.UnderlineBrush="Indigo" materialDesign:HintAssist.Hint="Pasword" HorizontalAlignment="Left" Height="37" Margin="30,142,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="403" Foreground="#FFF9F6F6" FontSize="16" BorderBrush="{x:Null}" Background="{x:Null}"/>
             <Path Data="M145,221 L491.6,221" Fill="#FFF7F7FA" HorizontalAlignment="Left" Height="1" Margin="30,177,0,0" Stretch="Fill" Stroke="#FFF3F3F6" VerticalAlignment="Top" Width="403"/>
             <Rectangle HorizontalAlignment="Left" Height="47" Margin="88,258,0,0" Stroke="white" VerticalAlignment="Top" Width="301" RadiusX="23.5" RadiusY="23.5" Fill="#FFF7F7F4">
                     
             </Rectangle>
-            <TextBlock HorizontalAlignment="Left" Height="29" Margin="215,266,0,0" Text="NEXT" TextWrapping="Wrap" VerticalAlignment="Top" Width="65" Background="#FFF7F5F5" Foreground="#FFFFFF33" FontSize="22" FontWeight="Bold"/>
-            <TextBox HorizontalAlignment="Left" Height="37" Margin="35,204,0,0" Text="Repeat Password" TextWrapping="Wrap" VerticalAlignment="Top" Width="403" Foreground="#FFF9F6F6" FontSize="16" BorderBrush="{x:Null}" Background="{x:Null}"/>
+            <TextBlock HorizontalAlignment="Left" Height="29" Margin="215,266,0,0" Text="NEXT" TextWrapping="Wrap" VerticalAlignment="Top" Width="65" Background="#FFF7F5F5" Foreground="#FFA400" FontSize="22" FontWeight="Bold"/>
+            <TextBox Panel.ZIndex="1" materialDesign:TextFieldAssist.UnderlineBrush="Indigo" materialDesign:HintAssist.Hint="Repeat Password" HorizontalAlignment="Left" Height="37" Margin="30,205,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="403" Foreground="#FFF9F6F6" FontSize="16" BorderBrush="{x:Null}" Background="{x:Null}"/>
             <Path Data="M145,221 L491.6,221" Fill="#FFF8F8FC" HorizontalAlignment="Left" Height="1" Margin="30,241,0,0" Stretch="Fill" Stroke="#FFF0F0F3" VerticalAlignment="Top" Width="403"/>
         </Grid>
         <Grid x:Name="ResetPassword" HorizontalAlignment="Left" Height="305" VerticalAlignment="Top" Width="438" Margin="115,107,0,0" Visibility="Hidden">
             <Rectangle HorizontalAlignment="Left" Height="53" Stroke="White" VerticalAlignment="Top" Width="12" RadiusX="0" RadiusY="0" Fill="#FFF3F3F0" Margin="2,0,0,0"/>
             <TextBlock HorizontalAlignment="Left" Height="53" TextWrapping="Wrap" VerticalAlignment="Top" Width="325" FontWeight="Bold" FontSize="38" TextDecorations="{x:Null}" FontStyle="Normal" Foreground="#FFFDFDFD" Margin="47,0,0,0" Text=" Reset Password"/>
-            <TextBox HorizontalAlignment="Left" Height="37" Margin="35,141,0,0" Text="Email" TextWrapping="Wrap" VerticalAlignment="Top" Width="403" Foreground="#FFF9F6F6" FontSize="16" BorderBrush="{x:Null}" Background="{x:Null}"/>
+            <TextBox Panel.ZIndex="1" materialDesign:TextFieldAssist.UnderlineBrush="Indigo" materialDesign:HintAssist.Hint="Email" HorizontalAlignment="Left" Height="37" Margin="30,142,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="403" Foreground="#FFF9F6F6" FontSize="16" BorderBrush="{x:Null}" Background="{x:Null}"/>
             <Path Data="M145,221 L491.6,221" Fill="#FFF7F7FA" HorizontalAlignment="Left" Height="1" Margin="30,177,0,0" Stretch="Fill" Stroke="#FFF3F3F6" VerticalAlignment="Top" Width="403"/>
             <Rectangle  HorizontalAlignment="Left" Height="47" Margin="88,258,0,0" Stroke="white" VerticalAlignment="Top" Width="301" RadiusX="23.5" RadiusY="23.5" Fill="#FFF7F7F4">
                 <i1:Interaction.Triggers>
@@ -208,7 +208,7 @@
                     </i1:EventTrigger>
                 </i1:Interaction.Triggers>
             </Rectangle>
-            <TextBlock HorizontalAlignment="Left" Height="29" Margin="215,266,0,0" Text="SEND" TextWrapping="Wrap" VerticalAlignment="Top" Width="65" Background="#FFF7F5F5" Foreground="#FFFFFF33" FontSize="22" FontWeight="Bold">
+            <TextBlock HorizontalAlignment="Left" Height="29" Margin="215,266,0,0" Text="SEND" TextWrapping="Wrap" VerticalAlignment="Top" Width="65" Background="#FFF7F5F5" Foreground="#FFA400" FontSize="22" FontWeight="Bold">
                  
             </TextBlock>
         </Grid>
